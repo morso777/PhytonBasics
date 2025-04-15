@@ -1,12 +1,8 @@
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-# x1 = 1 2 1
-# x2 = 1 2 1
-return str(x) == str(x)[::-1]
+# Leer entrada
+A = input()
 
-if __name_ == 'main':
-    s = Solution()
-    x = 121
-
-    result = s.isPalindrome(x)
-    print("Result: {result}")
+# Verificar si es palíndromo comparando con su reverso
+if A == A[::-1]:
+    print("Yes")
+else:
+    print("No")
